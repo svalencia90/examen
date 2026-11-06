@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background:#ffff;
+  font-family: 'afacad flux';
+}
+
+footer{
+  background-color: #e4d537;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 25px 75px 20px 75px;
+
+}
+
+/*IZQUIERDA */
+.izquierda{
+    width:20%; /* marco de la pagina de la derecha*/
+}
+
+.izquierda h1{
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.05;
+  margin-bottom: 25px;
+}
+.contac{
+    letter-spacing:1px;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.izquierda h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+
+.logo{
+  width: 123px;
+  height: 139px;
+  display: block;
+  margin-top: 5px;
+  
+}
+
+/* CENTRO */
+.centro{
+width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* TEXTOS PEQUEÑOS */
+h6{
+  font-size: 14px;
+  font-weight: lighter;
+  color: #2f3542;
+  margin-bottom: 10px;
+
+}
+
+.prim{
+    border-radius: 40px;
+    background-color: #e4d537;
+    display: inline-block;
+    color: #2f3542;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    border: 1px solid #2f3542;
+    padding: 8px 8px;
+    margin-bottom: 4px;
+}
+
+/* DERECHA */
+section{
+  background: #F0F2F5;
+  border-radius: 18px;
+  padding: 20px 20px;
+  width: 305px;
+  height: 296px;
+  gap: 8px;
+  }
+
+.derecha {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;   
+  margin-left: 40px;  
+  padding: 20px;
+  gap: 8px;     
+}
+
+.susc{
+    letter-spacing: 2px;
+}
+
+h2{
+    line-height: 25px;
+}
+
+.p{
+    font-family: 'afacad flux';
+   }
+
+.enviar {
+  display: inline-flex;
+  width: 70%;
+  background: #2B2B2B;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-top: 0;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'afacad flux';
+   }
+
+.envia {
+  display: inline-flex;
+  width: 90%;
+  background: #fffdfd;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-top: 0;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'afacad flux';
+}
+
+.icono {
+  width: 40px;            
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px; 
+}
+
+.by{    
+  font-size: 15px;
+  text-align: right;
+  margin-top: 25px;
+  margin-right: 20px;
+  position: relative;
+  font-weight: lighter;
+  width: 108px;
+  height:25px;
+}
+
