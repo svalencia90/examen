@@ -1,0 +1,217 @@
+/* Reset */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body{
+    background-color: #2F3542;
+    margin: 0;
+    padding: 0;
+    font-family: "Afacad Flux", sans-serif;
+    background-image: url(imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-x: hidden;
+   }
+
+/* Encabezado */
+header {
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 0 70px;
+}
+
+/* Logotipo holapp*/
+.logo-container {
+    margin-left: 100px;
+    width: 169px;
+    height: 71px;
+}
+
+
+/* Isotipo */
+
+.isotipo {
+    width: 145px;
+    height: 135px;
+    margin-top: 50px;
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 100px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #FEE400;
+}
+
+/* Botones de acción */
+.acciones-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.btn-iniciar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FEE400;
+    color: #2F3542;
+    width: 140px;
+    height: 40px;
+    gap: 10px;
+    padding: 8px 8px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: medium;
+}
+
+.btn-iniciar:hover {
+    background-color: #FFD000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-crear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F3542;
+    color: white;
+    border: 1px solid white;
+    width: 140px;
+    height: 40px;
+    padding: 8px 8px;
+    gap: 10px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: medium;
+}
+
+.btn-crear:hover {
+    background-color: white;
+    color: #2F3542;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    background-color: url('imagenes/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.inicio-sesion {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    max-width: 420px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 2rem 2.5rem;
+}
+
+.inicio-sesion h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #2F3542;
+}
+
+.subtitulo {
+  font-size: 0.85rem;
+  text-align: center;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.formulario-inicio {
+    display: flex;
+    flex-direction: column;
+   gap: 0.4rem;
+}
+
+.formulario-inicio input[type="email"],
+.formulario-inicio input[type="password"] {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  font-family: inherit;  
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.recordarme {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+.recordarme label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.recordarme a,
+.crear-cuenta a {
+  color: #2F3542;
+  text-decoration: none;
+}
+
+.formulario-inicio button {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 40px;
+  background-color: #FEE400;
+  color: #2F3542;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.formulario-inicio button:hover {
+  background-color: #FFD000;
+}
+
+.crear-cuenta {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.crear-cuenta a {
+  font-weight: 700;
+}
+
+
+
